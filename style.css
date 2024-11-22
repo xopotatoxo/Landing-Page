@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    padding:0;
+    gap:16px;
+}
+
+.header{
+    color: white;
+    background-color: #1F2937;
+}
+
+.title-web{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.bar{
+    display: flex;
+}
+
+.left-text{
+    display: flex;
+    
+}
+
+.right-pic{
+    display: flex;
+}
+
+.information{
+    color: black;
+    background-color: white;
+}
+
+.quote{
+    color: black;
+    background-color: #E5E7EB;
+}
+
+.sign-up{
+    color: black;
+    background-color: white;
+}
+
+.btn{
+    background-color: #3882F6;
+    color: white;
+}
+
+.blue-box{
+    background-color: #3882F6;
+}
+
+
+.slant{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+  }
+  
+.footer{
+    background-color: #1F2937;
+    color: white;
+}
