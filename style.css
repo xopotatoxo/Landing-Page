@@ -20,6 +20,11 @@ ul{
     padding: 34px;
 }
 
+.logo{
+    margin: 12px;
+    font-size: 24px;
+    font-weight: 800;
+}
 .title-web{
     font-size: 48px;
     color: #F9FAF8;
@@ -30,6 +35,8 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 8px;
+    align-items: center;
+
 }
 
 .first-para{
@@ -41,8 +48,17 @@ ul{
 .right-pic{
     display: flex;
     background-color: grey;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
 }
 
+.random{
+    text-align: center;
+    color: black;
+    margin: 24px;
+    padding: 12px;
+}
 
 .information{
     display: flex;
@@ -50,11 +66,15 @@ ul{
     background-color: white;
     justify-content: center;
     gap: 52px;
+    margin: 32px;
 }
 
 .box{
     border: solid #3882F6;
-    border-width: 0.1rem;
+    border-width: 0.3rem;
+    border-radius: 8px;
+    padding: 20px 10px;
+    text-align: center;
 }
 
 .quote{
@@ -111,4 +131,6 @@ ul{
 .footer{
     background-color: #1F2937;
     color: white;
+    padding: 20px;
+    text-align: center;
 }
